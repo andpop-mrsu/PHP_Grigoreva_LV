@@ -1,0 +1,30 @@
+{
+    "name": "WebUser/calculator",
+    "description": "Игра Калькулятор",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebUser",
+            "email": "WebUser@yandex.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebUser\\Calculator\\": "src/"
+        },
+        "files": [
+            "src/GameController.php",
+            "src/Database.php",
+            "src/Game.php"
+        ]
+    }
+}

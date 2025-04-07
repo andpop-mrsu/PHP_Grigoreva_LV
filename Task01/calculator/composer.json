@@ -1,0 +1,28 @@
+{
+    "name": "oldsool/calculator",
+    "description": "Implementation of a php program on the topic \"Calculator\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oldsool\\calculator\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/calculator"
+    ],
+    "authors": [
+        {
+            "name": "oldsool",
+            "email": "vip.13rus@bk.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
